@@ -1,0 +1,81 @@
+.search-input {
+  padding: 5px 20px;
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-size: 18px;
+  margin: 2rem 2rem 1rem 2rem;
+  width: 80%;
+}
+
+.submit-input {
+  visibility: hidden;
+}
+
+.albums-title {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 1rem;
+  margin-top: 3rem;
+}
+
+.albums-card {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 464px) {
+  .albums-card {
+    height: 210px;
+    width: 210px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .albums-card {
+    height: 270px;
+    width: 270px;
+  }
+}
+
+.albums-img {
+  width: 60%;
+  height: 60%;
+}
+
+.artists-title {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 1rem;
+  margin-top: 3rem;
+}
+
+.artists-card {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 464px) {
+  .artists-card {
+    height: 210px;
+    width: 210px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .artists-card {
+    height: 270px;
+    width: 270px;
+  }
+}
+
+.artists-img {
+  width: 60%;
+  height: 60%;
+}

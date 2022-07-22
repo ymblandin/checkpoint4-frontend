@@ -1,0 +1,24 @@
+.playlist-img-container {
+  width: 175px;
+  margin: 2rem auto;
+}
+
+.playlist-img {
+  width: 100%;
+}
+
+.track-card {
+  margin: 2rem 1rem;
+  justify-self: left;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 80vw 1fr;
+}
+
+.track-title h3,
+.track-title p {
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

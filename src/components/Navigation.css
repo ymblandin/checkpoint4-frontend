@@ -1,0 +1,20 @@
+.Navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 1rem;
+}
+
+.Navigation .btn-logout {
+  background-color: white;
+  border-radius: 30px;
+  padding: 5px 20px;
+  margin: 20px;
+  color: black;
+}
+
+.Navigation .links-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}

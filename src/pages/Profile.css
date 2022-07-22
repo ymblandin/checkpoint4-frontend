@@ -1,0 +1,53 @@
+.header-inner {
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.header-img-container {
+  display: flex;
+  width: 120px;
+  height: 120px;
+  margin-left: 1rem;
+}
+
+.header img {
+  width: 20%;
+  max-width: 250px;
+  min-width: 120px;
+  border-radius: 50%;
+}
+
+.header-name {
+  padding-left: 1rem;
+  margin: 0 auto;
+}
+
+.header-data {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.followed-artist-title {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 1.5rem;
+  margin-top: 4rem;
+}
+
+.followed-artists-card {
+  margin: 2rem 1.5rem;
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 1rem;
+  place-items: center;
+}
+
+.followed-artists-img {
+  width: 100%;
+  height: 100%;
+}
+
+.followed-artists-title {
+  justify-self: left;
+}

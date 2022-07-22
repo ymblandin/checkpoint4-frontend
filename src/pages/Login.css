@@ -1,0 +1,23 @@
+.Login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Login .btn-login {
+  background-color: #1db954;
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: large;
+  display: inline-block;
+}
+
+.Login img {
+  margin-bottom: 4rem;
+}

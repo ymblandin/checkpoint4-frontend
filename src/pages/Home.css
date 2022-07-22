@@ -1,0 +1,69 @@
+.home-header {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  place-items: center;
+}
+
+.top-artists-title {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 1rem;
+  margin-top: 3rem;
+}
+
+.top-artists-card {
+  height: 150px;
+  width: 150px;
+}
+
+@media screen and (min-width: 464px) {
+  .top-artists-card {
+    height: 210px;
+    width: 210px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .top-artists-card {
+    height: 270px;
+    width: 270px;
+  }
+}
+
+.top-artists-img {
+  width: 60%;
+  height: 60%;
+}
+
+.playlist-title {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 1rem;
+  margin-top: 4rem;
+}
+
+.playlist-card {
+  height: 120px;
+  width: 120px;
+}
+
+@media screen and (min-width: 464px) {
+  .playlist-card {
+    height: 180px;
+    width: 180px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .playlist-card {
+    height: 240px;
+    width: 240px;
+  }
+}
+
+.playlist-img {
+  width: 100%;
+  height: 100%;
+}

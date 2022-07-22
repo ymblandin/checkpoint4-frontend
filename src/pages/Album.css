@@ -1,0 +1,24 @@
+.album-img-container {
+  width: 175px;
+  margin: 2rem auto;
+}
+
+@media screen and (min-width: 464px) {
+  .album-img-container {
+    width: 215px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .album-img-container {
+    width: 275px;
+  }
+}
+
+.album-img {
+  width: 100%;
+}
+
+.track-card {
+  cursor: pointer;
+}
